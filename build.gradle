@@ -1,6 +1,10 @@
 
 apply plugin: 'java'
 
+repositories {
+    mavenCentral()
+}
+
 test {
     useJUnitPlatform()
 }
